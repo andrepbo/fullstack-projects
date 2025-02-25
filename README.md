@@ -1,12 +1,31 @@
-# Access backend GraphQL
-Github repo: fullstack-react-node-backend
-GraphQL: http://localhost:3000
+# My Fullstack Projects
 
-# Access frontend React
-Github repo: fullstack-react-node-frontend
-URL: http://localhost:3001
+This directory lists various fullstack projects.
 
-# Docker
+## Projects Overview
+
+| Project Name                      | Description | Link |
+| ---------------------------------- | ----------- | ---- |
+| react-node-graphql                         | Fullstack React Node App with GraphQL | [Link to repo](https://github.com/andrepbo/react-node-graphql) |
+
+
+## Areas of Focus
+
+Each project emphasizes different areas, including:
+
+## How to Use
+
+Feel free to explore any of the projects. Each repository is structured with its own README file, containing detailed setup instructions, usage guidelines, and further resources.
+
+To get started, clone a project:
+
 ```bash
-docker-compose up -d --build
+git clone https://github.com/andrepbo/[project-name].git
+cd [project-name]
 ```
+
+Follow the specific setup instructions for each project.
+
+## Contribution
+
+Suggestions and improvements are always welcome! If you'd like to contribute or report any issues, feel free to open a pull request or create an issue in the respective project repository.
