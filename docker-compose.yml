@@ -1,0 +1,24 @@
+services:
+  backend:
+    image: node:20
+    working_dir: /usr/local/app/backend
+    volumes:
+      - ./backend:/usr/local/app/backend
+      - /usr/local/app/backend/node_modules
+    ports:
+      - "3000:3000"
+    command: sh -c "npm install && npm start"
+    environment:
+      - NODE_ENV=development
+
+  frontend:
+    image: node:20
+    working_dir: /usr/local/app/frontend
+    volumes:
+      - ./frontend:/usr/local/app/frontend
+      - /usr/local/app/frontend/node_modules
+    ports:
+      - "3001:3001"
+    command: sh -c "npm install && npm start"
+    environment:
+      - NODE_ENV=development
