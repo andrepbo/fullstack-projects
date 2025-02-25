@@ -6,7 +6,8 @@ This directory lists various fullstack projects.
 
 | Project Name                      | Description | Link |
 | ---------------------------------- | ----------- | ---- |
-| react-node-graphql                         | Fullstack React Node App with GraphQL | [Link to repo](https://github.com/andrepbo/react-node-graphql) |
+| react-node-graphql-frontend                         | Fullstack React Node App with GraphQL | [Link to repo](https://github.com/andrepbo/react-node-graphql-frontend) |
+| react-node-graphql-backend                         | Fullstack React Node App with GraphQL | [Link to repo](https://github.com/andrepbo/react-node-graphql-backend) |
 
 
 ## Areas of Focus
