@@ -9,11 +9,6 @@ This directory lists various fullstack projects.
 | react-node-graphql-frontend                         | Fullstack React Node App with GraphQL | [Link to repo](https://github.com/andrepbo/react-node-graphql-frontend) |
 | react-node-graphql-backend                         | Fullstack React Node App with GraphQL | [Link to repo](https://github.com/andrepbo/react-node-graphql-backend) |
 
-
-## Areas of Focus
-
-Each project emphasizes different areas, including:
-
 ## How to Use
 
 Feel free to explore any of the projects. Each repository is structured with its own README file, containing detailed setup instructions, usage guidelines, and further resources.
