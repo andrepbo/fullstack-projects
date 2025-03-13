@@ -11,8 +11,6 @@ This directory lists various fullstack projects.
 
 ## How to Use
 
-Feel free to explore any of the projects. Each repository is structured with its own README file, containing detailed setup instructions, usage guidelines, and further resources.
-
 To get started, clone a project:
 
 ```bash
@@ -21,6 +19,26 @@ cd [project-name]
 ```
 
 Follow the specific setup instructions for each project.
+
+## Using docker-compose
+### Create a .env.local file in the same directory as docker-compose.yml and define:
+
+```ini
+BACKEND_SOURCE=/path/to/custom/backend
+FRONTEND_SOURCE=/path/to/custom/frontend
+```
+
+If you don’t set these variables, Docker Compose will default to ./backend and ./frontend.
+
+### Start the Services
+```bash
+docker-compose up -d
+```
+
+### Stop the Services
+```bash
+docker-compose down
+```
 
 ## Contribution
 
