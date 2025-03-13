@@ -1,10 +1,10 @@
 services:
   backend:
     image: node:20
-    working_dir: /usr/local/app/backend
+    working_dir: /usr/src/app
     volumes:
-      - ./backend:/usr/local/app/backend
-      - /usr/local/app/backend/node_modules
+      - "${BACKEND_SOURCE}:/usr/src/app"
+      - "/usr/src/app/node_modules"
     ports:
       - "3000:3000"
     command: sh -c "npm install && npm start"
@@ -13,10 +13,10 @@ services:
 
   frontend:
     image: node:20
-    working_dir: /usr/local/app/frontend
+    working_dir: /usr/src/app
     volumes:
-      - ./frontend:/usr/local/app/frontend
-      - /usr/local/app/frontend/node_modules
+      - "${FRONTEND_SOURCE}:/usr/src/app"
+      - "/usr/src/app/node_modules"
     ports:
       - "3001:3001"
     command: sh -c "npm install && npm start"
